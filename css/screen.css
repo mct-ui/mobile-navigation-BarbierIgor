@@ -840,6 +840,7 @@ a:focus {
 */
 
 .c-mobile-nav {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -848,7 +849,7 @@ a:focus {
 }
 
 .has-mobile-nav .c-mobile-nav {
-
+    display: block;
 }
 
 .c-mobile-nav__header {
